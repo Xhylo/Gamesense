@@ -1,6 +1,6 @@
 <h1 align="center">Gamesense</h1>
 <p align="center">
-  <img alt="Preview" width="860" alt="preview" src="https://media.discordapp.net/attachments/868981666608189492/868982216166879262/unknown.png?width=1250&height=676">
+  <img alt="Preview" width="860" alt="preview" src="https://cdn.discordapp.com/attachments/868981666608189492/868988455563169802/gamesensblur_1.png">
 <p align="center">
 <p align="center">
   <a href="https://betterdiscord.a  pp/Download?id=362"> <img alt="Download" src="https://img.shields.io/badge/Download-yellowgreen?style=plastic&logo=github"></a></p>
