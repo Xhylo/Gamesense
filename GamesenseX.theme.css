@@ -5,7 +5,7 @@
  * @author Xyhlo#9766
 */
 
-@import url('https://xhylo.github.io/Gamesense/GamesenseSC');
+@import url('https://xhylo.github.io/Gamesense/GamesenseSC.theme.css');
 
 :root{
     --title-gradient:linear-gradient(to right,#37b1da ,#c948cd ,#cce335, #37b1da);
