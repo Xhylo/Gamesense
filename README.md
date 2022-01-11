@@ -15,7 +15,7 @@
 <h2 align="center">More screenshots</h2>
 <h2 align="center">Go ahead and send me a friend request: Xyhlo#2379</h2>
 <p align="center">
-  <h2 align="center">This is my instagram be nice and leave a like or a comment :) maxyiiiss</h2>
+  <h2 align="center">This is my instagram be nice and leave a like or a comment: maxyiiiss</h2>
 <p align="center">
   <p align="center"><a href="https://imgur.com/a/bxaQJpB.gif">Animated preview</a></p>
   <p align="center"><img alt="Preview" alt="preview" src="https://media.discordapp.net/attachments/868981666608189492/868982755432755240/unknown.png?width=1245&height=676"></p>
