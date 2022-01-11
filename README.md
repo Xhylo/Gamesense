@@ -17,7 +17,7 @@
 <p align="center">
   <h2 align="center">This is my instagram be nice and leave a like or a comment: maxyiiiss</h2>
 <p align="center">
-  <p align="center"><a href="https://imgur.com/a/bxaQJpB.gif">Animated preview</a></p>
+  <p align="center"><a href="https://imgur .com/a/bxaQJpB.gif">Animated preview</a></p>
   <p align="center"><img alt="Preview" alt="preview" src="https://cdn.discordapp.com/attachments/882714874252263504/930557870192345089/unknown.png?width=1245&height=676"></p>
   <p align="center"><img alt="Preview" width="860" alt="preview" src="https://cdn.discordapp.com/attachments/868981666608189492/868982708360073266/unknown.png"></p>
 <p align="center">
