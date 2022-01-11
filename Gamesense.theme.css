@@ -1,12 +1,19 @@
 /**
  * @name gamesense theme
- * @version 1.2
+ * @version 1.3
  * @description Fixed gamesense theme
- * @author Xyhlo#9766
+ * @author Xyhlo#2379
  * @socials This is my instagram be nice and leave a like or a comment: maxyiiiss
+ * @fix Fixed broken elemements and updated most of the code if you find issues, do pull requests and I'll review them.
 */
 
 @import url('https://xhylo.github.io/Gamesense/GamesenseSC.theme.css');
+
+/*-------------------------------*/
+/* gamesense theme by Xyhlo#2379 */
+/* 	     version:            */
+/*	       1.3	         */
+/*-------------------------------*/
 
 :root{
     --title-gradient:linear-gradient(to right,#37b1da ,#c948cd ,#cce335, #37b1da);
