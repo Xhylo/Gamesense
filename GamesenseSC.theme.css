@@ -44,7 +44,125 @@
     --important-notification:#d12020;
     
 }
+/**
+* @name xyhlo snippets
+* @author lolpowerluke 
+* @version 1.0.0
+* @description snippets for xhylo, thanks lolpowerluke for helping me make this
+*/
+:root {
+  --avatar-shape: 50%;  /* 50% for round - 0% for square */
+  --online: #1df594;  /* Colour for online status */
+  --idle: #faa61a;  /* Colour for idle status */
+  --dnd: #f04747;  /* Colour for dnd status */
+  --offline: #4d4d4d;  /* Colour for offline status */
+  --streaming: #643da7;  /* Colour for streaming status */
+  --invisible: #747f8d;  /* Colour for invisible status - Note: this will only show for your own invisibility */
+}
 
+.peopleListItem-u6dGxF,
+.userInfo-2WpsYG,
+.wrapper-1VLyxH > svg {
+  overflow: visible;
+}
+.avatar-6qzftW {
+  margin-left: 5px;
+}
+.wrapper-1VLyxH > svg > foreignObject {
+  mask: none;
+  border-radius: var(--avatar-shape);
+}
+:not(.UserDetails-mutualFriends-mutualFriend) > .wrapper-1VLyxH > svg > rect {
+  mask: none;
+  rx: 5;
+  y: 6;
+  x: -10;
+  height: 20px;
+  width: 2px;
+}
+.message-2CShn3 .wrapper-1VLyxH > svg > rect {
+  y: 6;
+  height: 25px;
+}
+.userPopout-2j1gM4 :not(.UserDetails-mutualFriends-mutualFriend) > .wrapper-1VLyxH > svg > rect {
+  y: 13;
+  height: 50px;
+}
+.focusLock-2tveLW .header-S26rhB .wrapper-1VLyxH > svg > rect {
+  y: 14;
+  height: 90px;
+}
+.focusLock-2tveLW .body-1Ukv50 .wrapper-1VLyxH > svg > rect {
+  height: 25px;
+  y: 7;
+}
+.container-YkUktl .wrapper-1VLyxH > svg > rect {
+  x: -5;
+}
+
+
+[data-status="streaming"] > .StatusEverywhere-avatar-chatAvatar > svg.mask-1FEkla.svg-2azL_l,
+.wrapper-1VLyxH[aria-label*="Streaming"]>svg.mask-1FEkla.svg-2azL_l {
+  filter: drop-shadow(0 0 5px var(--streaming));
+}
+[data-status="offline"] > .StatusEverywhere-avatar-chatAvatar > svg.mask-1FEkla.svg-2azL_l,
+.wrapper-1VLyxH[aria-label*="Offline"]>svg.mask-1FEkla.svg-2azL_l {
+  filter: drop-shadow(0 0 7px var(--offline));
+}
+[data-status="dnd"] > .StatusEverywhere-avatar-chatAvatar > svg.mask-1FEkla.svg-2azL_l,
+.wrapper-1VLyxH[aria-label*="Do Not Disturb"]>svg.mask-1FEkla.svg-2azL_l {
+  filter: drop-shadow(0 0 5px var(--dnd));
+}
+[data-status="idle"] > .StatusEverywhere-avatar-chatAvatar > svg.mask-1FEkla.svg-2azL_l,
+.wrapper-1VLyxH[aria-label*="Idle"]>svg.mask-1FEkla.svg-2azL_l {
+  filter: drop-shadow(0 0 5px var(--idle));
+}
+[data-status="online"] > .StatusEverywhere-avatar-chatAvatar > svg.mask-1FEkla.svg-2azL_l,
+.wrapper-1VLyxH[aria-label*="Online"]>svg.mask-1FEkla.svg-2azL_l {
+  filter: drop-shadow(0 0 5px var(--online));
+}
+[data-status="online"] .wrapper-1VLyxH rect[fill*="#"],
+[aria-label*="Online"] .mask-1FEkla > foreignObject + rect,
+[aria-label*="Online"] .mask-2Me5HY > foreignObject + rect,
+[aria-label*="Online"] .mask-1FEkla > svg > rect,
+[aria-label*="Online"] .mask-2Me5HY > svg > rect {
+fill: var(--online);
+}
+[data-status="idle"] .wrapper-1VLyxH rect[fill*="#"],
+[aria-label*="Idle"] .mask-1FEkla > foreignObject + rect,
+[aria-label*="Idle"] .mask-2Me5HY > foreignObject + rect,
+[aria-label*="Idle"] .mask-1FEkla > svg > rect,
+[aria-label*="Idle"] .mask-2Me5HY > svg > rect {
+  fill: var(--idle);
+}
+[data-status="dnd"] .wrapper-1VLyxH rect[fill*="#"],
+[aria-label*="Do Not Disturb"] .mask-1FEkla > foreignObject + rect,
+[aria-label*="Do Not Disturb"] .mask-2Me5HY > foreignObject + rect,
+[aria-label*="Do Not Disturb"] .mask-1FEkla > svg > rect,
+[aria-label*="Do Not Disturb"] .mask-2Me5HY > svg > rect {
+  fill: var(--dnd);
+}
+[data-status="offline"] .wrapper-1VLyxH rect[fill*="#"],
+[aria-label*="Offline"] .mask-1FEkla > foreignObject + rect,
+[aria-label*="Offline"] .mask-2Me5HY > foreignObject + rect,
+[aria-label*="Offline"] .mask-1FEkla > svg > rect,
+[aria-label*="Offline"] .mask-2Me5HY > svg > rect {
+  fill: var(--offline);
+}
+[data-status="invisible"] .wrapper-1VLyxH rect[fill*="#"],
+[aria-label*="Invisible"] .mask-1FEkla > foreignObject + rect,
+[aria-label*="Invisible"] .mask-2Me5HY > foreignObject + rect,
+[aria-label*="Invisible"] .mask-1FEkla > svg > rect,
+[aria-label*="Invisible"] .mask-2Me5HY > svg > rect {
+  fill: var(--offline);
+}
+[data-status="streaming"] .wrapper-1VLyxH rect[fill*="#"],
+[aria-label*="Streaming"] .mask-1FEkla > foreignObject + rect,
+[aria-label*="Streaming"] .mask-2Me5HY > foreignObject + rect,
+[aria-label*="Streaming"] .mask-1FEkla > svg > rect,
+[aria-label*="Streaming"] .mask-2Me5HY > svg > rect {
+  fill: var(--streaming);
+}
 
 
 .search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb { width: 27px; transition: 0.25s; background-color: transparent;}
@@ -3647,7 +3765,7 @@ input,textarea{
      bottom: 0;
      right: 0.3vw;
      color: #9fca2b;
-
+}
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 /*-------------------------------*/
 /* gamesense theme by Xyhlo#2379 */
