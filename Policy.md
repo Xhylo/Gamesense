@@ -1,0 +1,1 @@
+The Discord theme created by Xyhlo#2379 is protected by copyright and may not be modified or re-uploaded without explicit permission from the creator. By using this theme, you agree to these terms of service and understand that any violation may result in legal action. Thank you for respecting the hard work and creativity of our community.
